@@ -12,6 +12,9 @@ module.exports = {
       console.log(`playing sound ${args[0]}`);
       const connection = await message.member.voice.channel.join();
       const dispatcher = connection.play(`sound/${soundFile}`);
+      dispatcher.on("finish", () => {
+        connection.disconnect();
+      });
       dispatcher.on("error", console.error);
     }
   },
