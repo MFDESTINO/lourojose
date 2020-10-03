@@ -1,0 +1,6 @@
+config.json
+sound/
+asset/
+cmd/ping.js
+node_modules/
+package-lock.json

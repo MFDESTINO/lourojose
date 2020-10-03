@@ -1,0 +1,16 @@
+{
+  "name": "lourojose",
+  "version": "1.0.0",
+  "description": "louro jose discord bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "couto0",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1"
+  }
+}
